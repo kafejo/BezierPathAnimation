@@ -12,6 +12,7 @@
 		90E515F21BC7CEC000090086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E515F01BC7CEC000090086 /* Main.storyboard */; };
 		90E515F41BC7CEC000090086 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90E515F31BC7CEC000090086 /* Assets.xcassets */; };
 		90E515F71BC7CEC000090086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90E515F51BC7CEC000090086 /* LaunchScreen.storyboard */; };
+		90E515FF1BC7D7C300090086 /* CGPoint+Vector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90E515FE1BC7D7C300090086 /* CGPoint+Vector.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		90E515F31BC7CEC000090086 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90E515F61BC7CEC000090086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90E515F81BC7CEC000090086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90E515FE1BC7D7C300090086 /* CGPoint+Vector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPoint+Vector.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				90E515EC1BC7CEC000090086 /* AppDelegate.swift */,
 				90E515EE1BC7CEC000090086 /* ViewController.swift */,
+				90E515FE1BC7D7C300090086 /* CGPoint+Vector.swift */,
 				90E515F01BC7CEC000090086 /* Main.storyboard */,
 				90E515F31BC7CEC000090086 /* Assets.xcassets */,
 				90E515F51BC7CEC000090086 /* LaunchScreen.storyboard */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90E515FF1BC7D7C300090086 /* CGPoint+Vector.swift in Sources */,
 				90E515EF1BC7CEC000090086 /* ViewController.swift in Sources */,
 				90E515ED1BC7CEC000090086 /* AppDelegate.swift in Sources */,
 			);
